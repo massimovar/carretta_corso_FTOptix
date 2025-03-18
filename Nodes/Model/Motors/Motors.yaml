@@ -1,0 +1,91 @@
+Name: Motors
+Id: g=6f15b282c11955bf323b16a201b9686c
+Type: FolderType
+Children:
+- Name: MyMotorObj1
+  Id: g=8076e863f77bd3ae5abdaa1ffd8eb05a
+  Type: MyMotorObj
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyMotorObj2
+  Id: g=0e5b79deab49d77880ec920914d2688c
+  Type: MyMotorObj
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyMotorObj3
+  Id: g=889e2fc008a4b573b5594a46723aa4a6
+  Type: MyMotorObj
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyMotorObj4
+  Id: g=039da50ebdce81c17fed3994bc4c4fde
+  Type: MyMotorObj
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyMotorObj5
+  Id: g=db74bf828ccac2336a5fd9315a9bb662
+  Type: MyMotorObj
+  Children:
+  - Name: On
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: InAlarm
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Temperature
+    Type: BaseDataVariableType
+    DataType: Int32

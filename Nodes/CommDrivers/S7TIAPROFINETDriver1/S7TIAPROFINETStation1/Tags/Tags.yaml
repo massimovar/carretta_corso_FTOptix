@@ -1,0 +1,1256 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: PLC
+  Id: g=615d85259fbfe39e73309a93251102ed
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
+  Children:
+  - Name: Test_DB
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
+    Children:
+    - Name: Test_bool
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_bool"
+    - Name: Test_intUPD
+      Type: S7TiaProfinetTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_intUPD"
+    - Name: Test_uint
+      Type: S7TiaProfinetTag
+      DataType: UInt16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_uint"
+    - Name: Test_dint
+      Type: S7TiaProfinetTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_dint"
+    - Name: Test_udint
+      Type: S7TiaProfinetTag
+      DataType: UInt32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_udint"
+    - Name: Test_lint
+      Type: S7TiaProfinetTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_lint"
+    - Name: Test_ulint
+      Type: S7TiaProfinetTag
+      DataType: UInt64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_ulint"
+    - Name: Test_word
+      Type: S7TiaProfinetTag
+      DataType: UInt16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_word"
+    - Name: Test_dword
+      Type: S7TiaProfinetTag
+      DataType: UInt32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_dword"
+    - Name: Test_string
+      Type: S7TiaProfinetTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_string"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 254
+    - Name: Test_struct_bool
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: b1
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_bool.b1"
+      - Name: b2
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_bool.b2"
+      - Name: b3
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_bool.b3"
+      - Name: b4
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_bool.b4"
+      - Name: b5
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_bool.b5"
+    - Name: Test_struct_int
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: int1
+        Type: S7TiaProfinetTag
+        DataType: Int16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_int.int1"
+      - Name: int2
+        Type: S7TiaProfinetTag
+        DataType: Int16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_int.int2"
+      - Name: int3
+        Type: S7TiaProfinetTag
+        DataType: Int16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_int.int3"
+      - Name: int4
+        Type: S7TiaProfinetTag
+        DataType: Int16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_int.int4"
+      - Name: int5
+        Type: S7TiaProfinetTag
+        DataType: Int16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_int.int5"
+    - Name: Test_struct_word
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: word1
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_word.word1"
+      - Name: word2
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_word.word2"
+      - Name: word3
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_word.word3"
+      - Name: word4
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_word.word4"
+      - Name: word5
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_word.word5"
+    - Name: Test_struct_string
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: String1
+        Type: S7TiaProfinetTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_string.String1"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: Encoding
+        - Name: MaximumLength
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 254
+      - Name: String2
+        Type: S7TiaProfinetTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_string.String2"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: Encoding
+        - Name: MaximumLength
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 254
+      - Name: String3
+        Type: S7TiaProfinetTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_string.String3"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: Encoding
+        - Name: MaximumLength
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 254
+      - Name: String4
+        Type: S7TiaProfinetTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_string.String4"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: Encoding
+        - Name: MaximumLength
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 254
+      - Name: String5
+        Type: S7TiaProfinetTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_string.String5"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: Encoding
+        - Name: MaximumLength
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 254
+    - Name: Test_udt
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: My_bool
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_udt.My_bool"
+      - Name: My_int
+        Type: S7TiaProfinetTag
+        DataType: Int16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_udt.My_int"
+      - Name: My_dint
+        Type: S7TiaProfinetTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_udt.My_dint"
+      - Name: My_real
+        Type: S7TiaProfinetTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_udt.My_real"
+      - Name: My_string
+        Type: S7TiaProfinetTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_udt.My_string"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: Encoding
+        - Name: MaximumLength
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 254
+    - Name: Test_array_bool
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      ValueRank: OneDimension
+      ArrayDimensions: [11]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_array_bool"
+      - Name: StartArrayIndex
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [0]
+    - Name: Test_array_int
+      Type: S7TiaProfinetTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [11]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_array_int"
+      - Name: StartArrayIndex
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [0]
+    - Name: Test_array_word
+      Type: S7TiaProfinetTag
+      DataType: UInt16
+      ValueRank: OneDimension
+      ArrayDimensions: [11]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_array_word"
+      - Name: StartArrayIndex
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [0]
+    - Name: Test_array_string
+      Type: S7TiaProfinetTag
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [11]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Test_DB.Test_array_string"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 254
+      - Name: StartArrayIndex
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [0]
+    - Name: Test_struct_blend
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: Test_bool
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_bool"
+      - Name: Test_int
+        Type: S7TiaProfinetTag
+        DataType: Int16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_int"
+      - Name: Test_uint
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_uint"
+      - Name: Test_dint
+        Type: S7TiaProfinetTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_dint"
+      - Name: Test_udint
+        Type: S7TiaProfinetTag
+        DataType: UInt32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_udint"
+      - Name: Test_lint
+        Type: S7TiaProfinetTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_lint"
+      - Name: Test_ulint
+        Type: S7TiaProfinetTag
+        DataType: UInt64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_ulint"
+      - Name: Test_word
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_word"
+      - Name: Test_dword
+        Type: S7TiaProfinetTag
+        DataType: UInt32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_dword"
+      - Name: Test_string
+        Type: S7TiaProfinetTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Test_DB.Test_struct_blend.Test_string"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: Encoding
+        - Name: MaximumLength
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 254
+    - Name: Test_array_udt
+      Type: TagStructure
+      DataType: Structure
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: {"Type":22,"Body":[{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}}]}
+      Children:
+      - Name: 1
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[1].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[1].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[1].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[1].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[1].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 2
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[2].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[2].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[2].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[2].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[2].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 3
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[3].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[3].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[3].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[3].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[3].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 4
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[4].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[4].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[4].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[4].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[4].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 5
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[5].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[5].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[5].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[5].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[5].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 6
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[6].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[6].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[6].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[6].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[6].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 7
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[7].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[7].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[7].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[7].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[7].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 8
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[8].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[8].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[8].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[8].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[8].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 9
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[9].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[9].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[9].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[9].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[9].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254
+      - Name: 10
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: My_bool
+          Type: S7TiaProfinetTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[10].My_bool"
+        - Name: My_int
+          Type: S7TiaProfinetTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[10].My_int"
+        - Name: My_dint
+          Type: S7TiaProfinetTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[10].My_dint"
+        - Name: My_real
+          Type: S7TiaProfinetTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[10].My_real"
+        - Name: My_string
+          Type: S7TiaProfinetTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PLC.Blocks.Test_DB.Test_array_udt[10].My_string"
+          - Name: Encoding
+            Type: BaseDataVariableType
+            DataType: Encoding
+          - Name: MaximumLength
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 254

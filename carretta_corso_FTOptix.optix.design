@@ -1,0 +1,46 @@
+Project:
+ Name: carretta_corso_FTOptix_Design
+ ProjectNamespaceIndex: 8
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.5
+ CoreVersion: 4.0
+ Dependencies:
+  2:
+   Uri: carretta_corso_FTOptix
+   RelativePath: carretta_corso_FTOptix.optix
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 4.0
+  4:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  5:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  6:
+   Uri: 'urn:FTOptix:S7TiaProfinetTagImporter'
+   Module: FTOptix.S7TiaProfinetTagImporter
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 4.0
+ Statistics:
+  TotalNodeCount: 4
+  Objects: 1
+  ObjectTypes: 0
+  Variables: 3
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 0
+  ReferenceTypes: 0
+  Files: 1
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/TagImporter.yaml

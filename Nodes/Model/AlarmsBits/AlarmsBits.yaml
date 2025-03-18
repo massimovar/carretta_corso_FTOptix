@@ -1,0 +1,15 @@
+Name: AlarmsBits
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Byte

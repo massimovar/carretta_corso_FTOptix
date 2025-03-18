@@ -1,0 +1,774 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=62fc89f39bac41ce9e40730cd2b3c38a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6dfa44bde454f5e5df9e62abb0e08fba
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=58d3a3aa405e9c2ca6e7286614dad3b4
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=eaf39fb945324b51a55cd8422958b9d6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable1"
+  - Name: LastEvent
+    Id: g=bcba730968c22dc066ebc29eb25128c2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: MaxTimeShelved
+    Id: g=12f7e44a5ff9a5640ffd6776f7f185f8
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=aa669b89f0e758fcbc4faf9af6aa22e2
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Message
+    Id: g=b521b71fae5803bff212eb54da739cab
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":32,"TextId":"_al1"}
+- Name: DigitalAlarm2
+  Id: g=53bf0fef480b401c8b74b8ddf50d1e64
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e4b192052df5af85d5ee7b99c8b62d57
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=beae0a78a37f17c6d78b0db78c7b30a4
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a57b30170d674b2a98b1105a581da45b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable2"
+  - Name: LastEvent
+    Id: g=358d69483cb0ede4a008e0aedc47b48d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=1c4c3a36f5cf56057bcde2495cf2e357
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+  - Name: MaxTimeShelved
+    Id: g=3f8f75ffae485db36f716021eda37591
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=d7b4798549eb29769a1493c082583cf3
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm3
+  Id: g=2f3f9ae5a56640dc8e14e65c91a38105
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5ac24b287e9f0670b18a921d493f5915
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1bebbdf201c66fe456694155023b9919
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=42145be54c334bd2a758d13560c9948a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable3"
+  - Name: LastEvent
+    Id: g=4f1cd82cd7e78e8d6d45b496cbc1e5a9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=0a66486e0626c42e2e6e6a1181d3fb8c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=35c8b5a26d006fde2338a4c989ea1da4
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=c8e165ac3240c5e3cc29e707b0829ec3
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm4
+  Id: g=85d3ed1fa56e44d5989552d2b8349661
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=dcbed4993ec67fd133b38327bde70e21
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d2296aa172a4981086f5d663cf09e532
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2bcb1af21e164bb7b0ac43ee9e9773fa
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable4.0"
+  - Name: LastEvent
+    Id: g=57a45af6df6a937bd9f51b6595dce89b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=d8ac09bfe3650ab206fabf8c1b5249dd
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=9fd397fd4e4d91b33b71b02c6ab9186a
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=4fcb2d407f58e6888acd95e76cf115c2
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm5
+  Id: g=214b689fc710404abd7654b60c00689f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d7256fc96cf8afb638f0799a7a348fc0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=02902629d1c72137a9aa746710c87404
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f2f2fc77932a4e87b4d80cf52723f312
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable4.1"
+  - Name: LastEvent
+    Id: g=cb2590b34cf3e816a0c792c11c857e76
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=a0d8502f922211b7a09a5bae48dd67c0
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=9a77bed0364ba1b82b30cc801271d8d1
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=e2a19b814eb224be7943717f47650ca7
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm6
+  Id: g=bea4bf730c7e464ebc5592e51825cf22
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7e98b23fcdd5fbca45505fb14f5b8ed3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e98174169eb08a35c03b9f08694167c2
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=016f93ff9f094c2aab3bad807ebcb3bb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable4.2"
+  - Name: LastEvent
+    Id: g=6187a5c638a523f5d17ec437e752f82c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=912ca5941d7d0454488f0b51e467916f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=38bb6d2514ec79fe9f7ea75814b956b5
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=e9243a3414793ede50a2f289676f55f5
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm7
+  Id: g=c63a2bf4960f42e1be366296af72346e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7cac8e5063602b58e59c37c97f3d6449
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7ecb17bd0a2900f708c96efdab2efb1c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b12d8e6ada8b4ee8990157baa617485f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable4.3"
+  - Name: LastEvent
+    Id: g=af92821a003d1016016810ef82c0c0f7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=0376b237a9456f0431ec20c614aecc20
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=8ce23c3d3e36362e142d9d7ef6853b01
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=13a33d3485f6ffe6f92a8232a448f1a9
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm8
+  Id: g=d7f16a07d28f468089a0479056c9df1f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c44198624cc4c7e8389e3e0f6d1e1eb7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=eae50f93673293df1b22241c0b91fdd0
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=ca72bf14226a49c1b76581c890c7e4be
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable4.4"
+  - Name: LastEvent
+    Id: g=be94e108c67048220a7025713b376c31
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=a7e48be7cad05cd4565309880cf908c8
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=1e085629c590d75515f09a88887d41e3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=e688fc2ff98e9dadac2bb94ff149d5b7
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm9
+  Id: g=66b115a448cd40848bb5c79e864636f0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=dd26d2d1e8f7d5de1ef9330e2a67e659
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=df79415b2a78f243ce60d14a2eb6b04e
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=febb426dd7c3423093d869cd07ba3446
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable4.5"
+  - Name: LastEvent
+    Id: g=baeacbf60b72a3c9298ab0ab68b96978
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=15514338fc582132746f36c2eaf9cdc7
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=c98aae7e1abb7074d67473a667c0fd11
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=3f39f719712b09b2bd2b40467b1929e8
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm10
+  Id: g=b2124b8dfb9946e29e0829af99ac6bfd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7c340102736ef9355fe872c5103909da
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=91a67e53f5672e1b737e4908bf8327e3
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=6def1616650949cb8902d6bae0af30f3
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable4.6"
+  - Name: LastEvent
+    Id: g=bda152c3ab4ab5d51fcc3d69dd70d9b2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=650f1b7d35b486aaa436580db05627cd
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=1b7dc1f82336a31990fbc7bf8dbff94b
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=2aa88af5f2b3087f6fd71161d35ac1c9
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm11
+  Id: g=4cce4160a9674b17b98e1caa624067b4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=aec2165dd8d6ca23c882f7658c77f6c1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8ba41c0b07b5d2169e249d11683ca2ab
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=bd57e386d06941ff8927359a76b26571
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/carretta_corso_FTOptix/Model/AlarmsBits/Variable4.7"
+  - Name: LastEvent
+    Id: g=c5bc65447afaa380673689b6c9dc7690
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=154
+    Direction: Forward
+  - Name: Severity
+    Id: g=a6e2dab768f8d61c1d7d04855396a61e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=f28c457fa333c720625df09fce341826
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=6c7a6b4391b6fc9d260e3617a346b3f9
+    Type: BaseDataVariableType
+    DataType: Duration

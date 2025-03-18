@@ -1,0 +1,15 @@
+Name: Folder1
+Type: FolderType
+Children:
+- Name: Screen1
+  Id: g=3262f940d12d9b0518466bf66f3c9be6
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen2
+  Id: g=f0f57f8912df00244163969d30353e24
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen3
+  Id: g=8592e8de4c686f5e39527ef2c751cb1f
+  Supertype: Screen
+  ReferenceType: HasComponent
