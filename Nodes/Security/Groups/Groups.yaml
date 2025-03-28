@@ -1,3 +1,8 @@
 Name: Groups
 Id: g=33ac98afcbbcd645bc8146197074cc43
 Type: GroupsCategoryFolder
+Children:
+- Name: SuperAdmin
+  Id: g=58754647d64aac740944def223c01806
+  Type: GroupType
+- File: AppGroups/AppGroups.yaml

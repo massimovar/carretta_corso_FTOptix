@@ -1,0 +1,58 @@
+Name: AppUsers
+Id: g=5996d2a8b6715b8d75902853dc5adcb2
+Type: FolderType
+Children:
+- Name: User1
+  Id: g=92a6141a52561a46774d0a908ef72ab2
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=da8ac149bb966b4ae7920624803b64dd
+  - Class: Reference
+    Type: HasGroup
+    Target: g=84075b0fbe4010b4d50b6d5a1076bc8d
+  - Name: LocaleId
+    Id: g=7e26367cc1ac10edc879f4482a7e8c58
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+- Name: User2
+  Id: g=b9ebe79eedb0fe91a9c8d744512d767a
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=430bb4683ddd6c9fc1a0a22e2c6ef95c
+  - Class: Reference
+    Type: HasGroup
+    Target: g=84075b0fbe4010b4d50b6d5a1076bc8d
+  - Class: Reference
+    Type: HasGroup
+    Target: g=da8ac149bb966b4ae7920624803b64dd
+  - Name: LocaleId
+    Id: g=b12fe345a7f2a33fe1dc7ec19ab1dbf3
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: Language
+    Id: g=47e0c95626cd2530c0bb6d671ed29ed4
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+- Name: User3
+  Id: g=eceb4aeb1aaba6c4a68dce53aeb4f95a
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=84075b0fbe4010b4d50b6d5a1076bc8d
+  - Name: LocaleId
+    Id: g=1ed62d6c3af249695aa1ed3c5ca7a1c1
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"

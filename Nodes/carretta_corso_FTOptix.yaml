@@ -9,7 +9,7 @@ Children:
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","it-IT"]
   - Name: LocaleFallbackList
     Type: BaseDataVariableType
     DataType: LocaleId
@@ -28,23 +28,28 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
+    Value: 4
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
+    Value: 10
   - Name: EnforcePasswordHistory
     Type: BaseDataVariableType
     DataType: Byte
-    Value: 1
+    Value: 5
   - Name: MinimumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: MinimumPasswordLength
     Type: BaseDataVariableType
     DataType: Byte
-    Value: 8
+    Value: 10
 - Name: AlarmConfiguration
   Type: PropertyGroup
 - File: UI/UI.yaml
@@ -63,3 +68,12 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/carretta_corso_FTOptix/Recipes/RecipeSchema1/EditModel"
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/carretta_corso_FTOptix/Recipes/RecipeSchema1/EditModel"

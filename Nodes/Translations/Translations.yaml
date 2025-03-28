@@ -9,110 +9,159 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [102,2],
+    "Dimensions": [151,3],
     "Body": [
-     "","en-US",
-     "Reboot","Reboot",
-     "Mask","Mask",
-     "Apply","Apply",
-     "RebootToCommitChanges","Reboot to commit changes",
-     "DHCPClientEnabled","DHCP client enabled",
-     "DNS2","DNS 2",
-     "IPAddress","IP address",
-     "DNS1","DNS 1",
-     "LAN","LAN",
-     "WAN","WAN",
-     "DefaultGateway","Default gateway",
-     "ApplicationName","Application name",
-     "DeviceName","Device name",
-     "ProductName","Product name",
-     "OS ","OS ",
-     "DisableApplicationAndFirmwareUpdates","Disable application and firmware updates",
-     "LastDeploy","Last deploy",
-     "CatalogNumber","Catalog #",
-     "CPUTemperature","CPU temperature",
-     "CPUUtilization","CPU utilization",
-     "LastReboot","Last reboot",
-     "FreeMemory","Free memory",
-     "ProductInformation","Product Information",
-     "UsedMemory","Used memory",
-     "Diagnostics","Diagnostics",
-     "PowerOnTime","Power on time",
-     "FreeStorage","Free storage",
-     "UsedStorage","Used storage",
-     "Configuration","Configuration",
-     "FTOptixStudio","FT Optix Studio",
-     "OptixPanelFirmware","OptixPanel firmware",
-     "SystemManager","System Manager",
-     "Versions","Versions",
-     "TimeSynchronizationMode","Synchronization mode",
-     "AutoMode","Auto (Remote NTP server)",
-     "ManualMode","Manual",
-     "TimeZone","Time zone",
-     "RemoteNTPServer","Remote NTP server",
-     "LocalNTPServerInterfaces","Local NTP server interfaces",
-     "DateAndTime","Date and time",
-     "AssistancePanelTitle","Assistance",
-     "FTRemoteAccessConnection","FT Remote Access connection",
-     "RegisterToDomainString","To connect, add your device in FT Remote Access.",
-     "Connecting"," Connecting",
-     "Name","Name",
-     "RegisterToDomainPassword","Password:",
-     "RequestsUnavailable","Assistance requests are unavailable for this device while disconnected.",
-     "Disconnected","Disconnected ",
-     "Description","Description",
-     "Yes","Yes",
-     "ContactInformation","Contact information",
-     "No","No",
-     "RequestAssistance","Request Assistance ",
-     "AssistanceRequested"," Assistance Requested",
-     "FillOutFieldsMessage","Fill out all fields to submit a request.",
-     "RequestsDisabled","Assistance requests are disabled for this device. Please contact your system administrator.",
-     "ConnectionPanelTitleAsterisk","Connection *",
-     "ConnectionPanelTitle","Connection",
-     "FTRemoteAccessRuntimeVersion","FT Remote Access runtime version",
-     "RemoteConnections","Remote connections",
-     "Connected"," Connected",
-     "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?",
-     "RegisterToDomainDeviceID","Device ID:",
-     "Connected to Station:","Connected to Station:",
-     "ImportExportModelVariablesStartingNodeDescription","Node containing variables for csv generation with full name and path to be used to import into models",
-     "ProjectFolder","Project folder",
-     "EnterApplicationPath","Enter application path",
-     "DeleteAllFilesConfirmationMessage","Do you want to delete all application files?",
-     "Password","Password",
-     "ResetApplicationFiles","Delete existing application files when loading application",
-     "Load","Load",
-     "Browse","Browse",
-     "ApplicationFolder","Application folder",
-     "Delete","Delete",
-     "Confirm","Confirm",
-     "Cancel","Cancel",
-     "FileNameInput","File name:",
-     "ProtectionModeActiveMessage","Cannot load application. Device protection mode is enabled.",
-     "InvalidDescriptorMessage","Device Configuration. XML file is missing or invalid.",
-     "Filename","File name",
-     "Size","Size",
-     "LoadSuccessfulMessage","Load application successful. Runtime will restart.",
-     "ApplicationLoadingMessage","Application is loading...",
-     "InternalErrorMessage","An internal error occurred. Try to load the application again.",
-     "InvalidFilePathMessage","Application not found. The file path is invalid.",
-     "InvalidProjectFileMessage","The selected FactoryTalk Optix file is invalid or corrupt.",
-     "UnencryptedFileMessage","The file is unencrypted. Load a password protected file.",
-     "LoadAlreadyInProgressMessage","Cannot load application. Another application is loading.",
-     "WrongPasswordMessage","Incorrect password.",
-     "Timestamp","Timestamp",
-     "TimedShelve","Timed Shelve",
-     "Acknowledge","Acknowledge",
-     "Acknowledge All","Acknowledge All",
-     "Active","Active",
-     "OneShotShelve","One-Shot Shelve",
-     "Confirm All","Confirm All",
-     "SourceName","Source Variable",
-     "Message","Message",
-     "Acked","Acked",
-     "Confirmed","Confirmed",
-     "Severity","Severity"
+     "","en-US","it-IT",
+     "Reboot","Reboot","",
+     "Mask","Mask","",
+     "Apply","Apply","",
+     "RebootToCommitChanges","Reboot to commit changes","",
+     "DHCPClientEnabled","DHCP client enabled","",
+     "DNS2","DNS 2","",
+     "IPAddress","IP address","",
+     "DNS1","DNS 1","",
+     "LAN","LAN","",
+     "WAN","WAN","",
+     "DefaultGateway","Default gateway","",
+     "ApplicationName","Application name","",
+     "DeviceName","Device name","",
+     "ProductName","Product name","",
+     "OS ","OS ","",
+     "DisableApplicationAndFirmwareUpdates","Disable application and firmware updates","",
+     "LastDeploy","Last deploy","",
+     "CatalogNumber","Catalog #","",
+     "CPUTemperature","CPU temperature","",
+     "CPUUtilization","CPU utilization","",
+     "LastReboot","Last reboot","",
+     "FreeMemory","Free memory","",
+     "ProductInformation","Product Information","",
+     "UsedMemory","Used memory","",
+     "Diagnostics","Diagnostics","",
+     "PowerOnTime","Power on time","",
+     "FreeStorage","Free storage","",
+     "UsedStorage","Used storage","",
+     "Configuration","Configuration","",
+     "FTOptixStudio","FT Optix Studio","",
+     "OptixPanelFirmware","OptixPanel firmware","",
+     "SystemManager","System Manager","",
+     "Versions","Versions","",
+     "TimeSynchronizationMode","Synchronization mode","",
+     "AutoMode","Auto (Remote NTP server)","",
+     "ManualMode","Manual","",
+     "TimeZone","Time zone","",
+     "RemoteNTPServer","Remote NTP server","",
+     "LocalNTPServerInterfaces","Local NTP server interfaces","",
+     "DateAndTime","Date and time","",
+     "AssistancePanelTitle","Assistance","",
+     "FTRemoteAccessConnection","FT Remote Access connection","",
+     "RegisterToDomainString","To connect, add your device in FT Remote Access.","",
+     "Connecting"," Connecting","",
+     "Name","Name","",
+     "RegisterToDomainPassword","Password:","",
+     "RequestsUnavailable","Assistance requests are unavailable for this device while disconnected.","",
+     "Disconnected","Disconnected ","",
+     "Description","Description","",
+     "Yes","Yes","",
+     "ContactInformation","Contact information","",
+     "No","No","",
+     "RequestAssistance","Request Assistance ","",
+     "AssistanceRequested"," Assistance Requested","",
+     "FillOutFieldsMessage","Fill out all fields to submit a request.","",
+     "RequestsDisabled","Assistance requests are disabled for this device. Please contact your system administrator.","",
+     "ConnectionPanelTitleAsterisk","Connection *","",
+     "ConnectionPanelTitle","Connection","",
+     "FTRemoteAccessRuntimeVersion","FT Remote Access runtime version","",
+     "RemoteConnections","Remote connections","",
+     "Connected"," Connected","",
+     "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?","",
+     "RegisterToDomainDeviceID","Device ID:","",
+     "Connected to Station:","Connected to Station:","",
+     "ImportExportModelVariablesStartingNodeDescription","Node containing variables for csv generation with full name and path to be used to import into models","",
+     "ProjectFolder","Project folder","",
+     "EnterApplicationPath","Enter application path","",
+     "DeleteAllFilesConfirmationMessage","Do you want to delete all application files?","",
+     "Password","Password","",
+     "ResetApplicationFiles","Delete existing application files when loading application","",
+     "Load","Load","",
+     "Browse","Browse","",
+     "ApplicationFolder","Application folder","",
+     "Delete","Delete","",
+     "Confirm","Confirm","",
+     "Cancel","Cancel","",
+     "FileNameInput","File name:","",
+     "ProtectionModeActiveMessage","Cannot load application. Device protection mode is enabled.","",
+     "InvalidDescriptorMessage","Device Configuration. XML file is missing or invalid.","",
+     "Filename","File name","",
+     "Size","Size","",
+     "LoadSuccessfulMessage","Load application successful. Runtime will restart.","",
+     "ApplicationLoadingMessage","Application is loading...","",
+     "InternalErrorMessage","An internal error occurred. Try to load the application again.","",
+     "InvalidFilePathMessage","Application not found. The file path is invalid.","",
+     "InvalidProjectFileMessage","The selected FactoryTalk Optix file is invalid or corrupt.","",
+     "UnencryptedFileMessage","The file is unencrypted. Load a password protected file.","",
+     "LoadAlreadyInProgressMessage","Cannot load application. Another application is loading.","",
+     "WrongPasswordMessage","Incorrect password.","",
+     "Timestamp","Timestamp","",
+     "TimedShelve","Timed Shelve","",
+     "Acknowledge","Acknowledge","",
+     "Acknowledge All","Acknowledge All","",
+     "Active","Active","",
+     "OneShotShelve","One-Shot Shelve","",
+     "Confirm All","Confirm All","",
+     "SourceName","Source Variable","",
+     "Message","Message","",
+     "Acked","Acked","",
+     "Confirmed","Confirmed","",
+     "Severity","Severity","",
+     "RecipesEditorStoreOfSchema","Store of schema","",
+     "Save","Save","",
+     "RecipeControllerRecipe","Recipe","",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","",
+     "RecipeControllerCreatedAndSaved","created and saved","",
+     "RecipeControllerDeleted","deleted","",
+     "RecipeControllerRecipeApplied","Recipe applied","",
+     "RecipeControllerRecipeLoaded","Recipe loaded","",
+     "RecipeControllerSaved","saved","",
+     "RecipesEditorNotARecipe","is not a recipe","",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","",
+     "RecipesEditorRecipeNotFound","Recipe not found","",
+     "RecipesEditorNotAStore","is not a store","",
+     "RecipesEditorNotSet","is not set","",
+     "RecipesEditorStore","Store","",
+     "RecipesEditorNotFound","not found","",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","",
+     "Old password","Old password","",
+     "LoginFormPasswordExpired","Password expired","",
+     "Login","Login","",
+     "New password","New password","",
+     "LoginChangePasswordFormPasswordTooShort","Password too short","",
+     "Confirm password","Confirm password","",
+     "Change password","Change password","",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","",
+     "Current User:","Current User:","",
+     "Logout","Logout","",
+     "LoginFormLoginSuccessful","Login successful","",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation","",
+     "LoginFormAuthenticationFailed","Authentication failed","",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password","",
+     "LoginChangePasswordFormUserNotFound","User not found","",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used","",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently","",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match","",
+     "Create","Create","",
+     "Groups","Groups","",
+     "EmptyUserList","No users in list","",
+     "PasswordChangedTooRecently","Password changed too recently","",
+     "Locale:","Locale:","",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","",
+     "UnableToGetUsers","Unable to get users","",
+     "UsernameAlreadyExists","Username already exists","",
+     "UserNotFound","User not found","",
+     "PasswordAlreadyUsed","Password already used in the past","",
+     "PasswordTooShort","Password too short","",
+     "UnsupportedOperation","Unsupported operation","",
+     "ChangesAppliedSuccessfully","Changes applied successfully",""
     ]
    }
 - Name: AlarmsDict
@@ -123,9 +172,75 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [2,2],
+    "Dimensions": [2,3],
     "Body": [
-     "","en-US",
-     "_al1","First alarm"
+     "","en-US","it-IT",
+     "_al1","First alarm",""
     ]
    }
+- Name: LocalizationDictionary2
+  Id: g=b809f8108b27ef1945a96b9a6436cc0f
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [5,3],
+    "Body": [
+     "","en-US","it-IT",
+     "_hi","hi!","Ciao!",
+     "motor","motor","Motore aggiornato",
+     "chair","chair","sedia",
+     "valve","valve","valvola"
+    ]
+   }
+- Name: ImportAndExportTranslations
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/temp/myTranslations.csv"
+  - Class: Method
+    Name: ExportTranslations
+  - Class: Method
+    Name: ImportTranslations
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/carretta_corso_FTOptix/Translations/LocalizationDictionary2"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

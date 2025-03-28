@@ -57,10 +57,105 @@ Children:
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
+        - Name: 'Message_it-IT'
+          Type: StoreColumn
+          DataType: String
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
         Value: 100000
+    - Name: DataLogger42
+      Id: g=0920798aeb6f2d6e33a7cad7402c7928
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Variable1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable2
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: Variable3
+          Type: StoreColumn
+          DataType: String
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 100000
+    - Name: RecipeSchema1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /Motors/MyMotorObj1/On
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Motors/MyMotorObj1/Speed
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Motors/MyMotorObj1/InAlarm
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Motors/MyMotorObj1/Temperature
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Motors/MyMotorObj2/On
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Motors/MyMotorObj2/Speed
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Motors/MyMotorObj2/InAlarm
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Motors/MyMotorObj2/Temperature
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /RecipeTags/Variable1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /RecipeTags/Variable2
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /RecipeTags/Variable3
+          Type: StoreColumn
+          DataType: String
   - Class: Reference
     Target: ns=25;i=30
     Direction: Forward

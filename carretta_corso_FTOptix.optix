@@ -129,16 +129,32 @@ Project:
    Uri: 'urn:FTOptix:S7TiaProfinet:Net'
    Module: FTOptix.S7TiaProfinet.Net
    Version: 1.1
+  33:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 1.0
+  34:
+   Uri: 'urn:FTOptix:DataLogger:Net'
+   Module: FTOptix.DataLogger.Net
+   Version: 1.0
+  35:
+   Uri: 'urn:FTOptix:Recipe'
+   Module: FTOptix.Recipe
+   Version: 1.0
+  36:
+   Uri: 'urn:FTOptix:Recipe:Net'
+   Module: FTOptix.Recipe.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 5342
-  Objects: 1006
-  ObjectTypes: 36
-  Variables: 4280
+  TotalNodeCount: 8176
+  Objects: 1552
+  ObjectTypes: 53
+  Variables: 6530
   VariableTypes: 0
   DataTypes: 0
-  Methods: 20
-  References: 196
+  Methods: 41
+  References: 261
   ReferenceTypes: 0
-  Files: 39
+  Files: 46
  Nodes:
  - File: Nodes/carretta_corso_FTOptix.yaml

@@ -14,6 +14,8 @@ using FTOptix.Alarm;
 using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.EventLogger;
+using FTOptix.DataLogger;
+using FTOptix.Recipe;
 #endregion
 
 public class FTRemoteAccessWidgetSetupLogic : BaseNetLogic

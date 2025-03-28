@@ -1386,3 +1386,8 @@ Children:
   - Name: Temperature
     Type: BaseDataVariableType
     DataType: Int32
+- File: TagsToLog/TagsToLog.yaml
+- File: RecipeTags/RecipeTags.yaml
+- Name: Variable42
+  Type: BaseDataVariableType
+  DataType: Int32

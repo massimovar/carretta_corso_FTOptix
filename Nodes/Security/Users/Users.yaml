@@ -1,3 +1,21 @@
 Name: Users
 Id: g=8cdfe95c558e909385d4fe7ddc9a2655
 Type: UsersCategoryFolder
+Children:
+- Name: TheSuperAdmin
+  Id: g=d5a88f989972bba7b2f1deb0dd43a85e
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=430bb4683ddd6c9fc1a0a22e2c6ef95c
+  - Class: Reference
+    Type: HasGroup
+    Target: g=84075b0fbe4010b4d50b6d5a1076bc8d
+  - Class: Reference
+    Type: HasGroup
+    Target: g=da8ac149bb966b4ae7920624803b64dd
+  - Class: Reference
+    Type: HasGroup
+    Target: g=58754647d64aac740944def223c01806
+- File: AppUsers/AppUsers.yaml

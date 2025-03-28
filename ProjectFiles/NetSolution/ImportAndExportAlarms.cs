@@ -17,6 +17,8 @@ using UAManagedCore;
 using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.EventLogger;
+using FTOptix.DataLogger;
+using FTOptix.Recipe;
 using OpcUa = UAManagedCore.OpcUa;
 
 #endregion

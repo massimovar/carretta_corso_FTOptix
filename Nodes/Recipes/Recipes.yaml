@@ -1,2 +1,157 @@
 Name: Recipes
 Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=9c7610d8ea02faeaea759e2f10409f10
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Motors
+      Type: BaseObjectType
+      Children:
+      - Name: MyMotorObj1
+        Type: BaseObjectType
+        Children:
+        - Name: On
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Speed
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Name: InAlarm
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Temperature
+          Type: BaseDataVariableType
+          DataType: Int32
+      - Name: MyMotorObj2
+        Type: BaseObjectType
+        Children:
+        - Name: On
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Speed
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Name: InAlarm
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Temperature
+          Type: BaseDataVariableType
+          DataType: Int32
+    - Name: RecipeTags
+      Type: BaseObjectType
+      Children:
+      - Name: Variable1
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: Variable2
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Variable3
+        Type: BaseDataVariableType
+        DataType: String
+  - Class: Reference
+    Target: ns=35;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=35;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/carretta_corso_FTOptix/DataStores/EmbeddedDatabase1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/carretta_corso_FTOptix/Model"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=2ac3efa641759412a02758d8f96d4efa
+    Type: BaseObjectType
+    Children:
+    - Name: Motors
+      Type: BaseObjectType
+      Children:
+      - Name: MyMotorObj1
+        Type: BaseObjectType
+        Children:
+        - Name: On
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Speed
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Name: InAlarm
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Temperature
+          Type: BaseDataVariableType
+          DataType: Int32
+      - Name: MyMotorObj2
+        Type: BaseObjectType
+        Children:
+        - Name: On
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Speed
+          Type: BaseDataVariableType
+          DataType: Int32
+        - Name: InAlarm
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Temperature
+          Type: BaseDataVariableType
+          DataType: Int32
+    - Name: RecipeTags
+      Type: BaseObjectType
+      Children:
+      - Name: Variable1
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: Variable2
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Variable3
+        Type: BaseDataVariableType
+        DataType: String

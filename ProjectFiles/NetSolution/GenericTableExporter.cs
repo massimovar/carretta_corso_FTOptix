@@ -13,6 +13,8 @@ using FTOptix.UI;
 using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.Core;
+using FTOptix.DataLogger;
+using FTOptix.Recipe;
 #endregion
 
 public class GenericTableExporter : BaseNetLogic
