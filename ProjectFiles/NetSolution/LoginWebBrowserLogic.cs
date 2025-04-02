@@ -12,6 +12,9 @@ using FTOptix.Core;
 using System.Text.RegularExpressions;
 using System.Security.Cryptography;
 using System.Text;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
+using FTOptix.Modbus;
 #endregion
 
 public class LoginWebBrowserLogic : BaseNetLogic

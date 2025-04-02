@@ -15,6 +15,9 @@ using FTOptix.SQLiteStore;
 using FTOptix.EventLogger;
 using FTOptix.DataLogger;
 using FTOptix.Recipe;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
+using FTOptix.Modbus;
 #endregion
 
 public class FilesystemBrowserLogic : BaseNetLogic

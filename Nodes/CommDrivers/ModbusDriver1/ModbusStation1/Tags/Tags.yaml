@@ -1,0 +1,6 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: ModbusTag1
+  Type: ModbusTag
+  DataType: Int32

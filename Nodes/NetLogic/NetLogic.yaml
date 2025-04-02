@@ -272,3 +272,25 @@ Children:
        "highestIgnoredVersion": 0
       }
      }
+- Name: MyFirstDTNetLogic
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: VariablesGenerator
+  - Name: NumbersOfVariablesToGenerate
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 25
+- Name: MyFirstRTNetLogic
+  Type: NetLogic
+- File: UI_logics/UI_logics.yaml
+- Name: TasksManager
+  Id: g=307f126001e99b5bd5bc70312389117a
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: StartLongRunningTask

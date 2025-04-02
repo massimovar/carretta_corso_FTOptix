@@ -9,6 +9,9 @@ using FTOptix.UI;
 using FTOptix.CoreBase;
 using FTOptix.Core;
 using FTOptix.Retentivity;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
+using FTOptix.Modbus;
 #endregion
 
 public class LoginChangePasswordButtonLogic : BaseNetLogic

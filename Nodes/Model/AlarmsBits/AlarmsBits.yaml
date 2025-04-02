@@ -1,15 +1,20 @@
 Name: AlarmsBits
+Id: g=1c49a043ec09f70e73c383a1e6469e41
 Type: FolderType
 Children:
 - Name: Variable1
+  Id: g=326bea9a4edeb23a1456686208caa3dd
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Variable2
+  Id: g=0351c68c974bdd55ba442d78b4512c4b
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Variable3
+  Id: g=e62d1aef638d0bb922243a972f45931a
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Variable4
+  Id: g=095c5ef832b856b6023cc57242aeb2b4
   Type: BaseDataVariableType
   DataType: Byte

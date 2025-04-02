@@ -1391,3 +1391,8 @@ Children:
 - Name: Variable42
   Type: BaseDataVariableType
   DataType: Int32
+- File: MyFolder/MyFolder.yaml
+- Name: MyBackground
+  Type: BaseDataVariableType
+  DataType: Color
+  Value: "#0000ff"

@@ -12,6 +12,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Globalization;
 using FTOptix.Store;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
+using FTOptix.Modbus;
 
 #endregion
 

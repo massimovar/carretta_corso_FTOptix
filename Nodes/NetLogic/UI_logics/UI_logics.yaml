@@ -1,0 +1,13 @@
+Name: UI logics
+Type: FolderType
+Children:
+- Name: RuntimeNetLogic2
+  Id: g=af072af82445e5e9d7b6c81d048a9651
+  Type: NetLogic
+  Children:
+  - Name: MyBackground
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#0000ff"
+  - Class: Method
+    Name: UpdateBackground

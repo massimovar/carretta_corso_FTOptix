@@ -145,16 +145,32 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  37:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
+  38:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.1
+  39:
+   Uri: 'urn:FTOptix:Modbus'
+   Module: FTOptix.Modbus
+   Version: 1.0
+  40:
+   Uri: 'urn:FTOptix:Modbus:Net'
+   Module: FTOptix.Modbus.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 8176
-  Objects: 1552
-  ObjectTypes: 53
-  Variables: 6530
+  TotalNodeCount: 8434
+  Objects: 1611
+  ObjectTypes: 54
+  Variables: 6722
   VariableTypes: 0
   DataTypes: 0
-  Methods: 41
-  References: 261
+  Methods: 47
+  References: 267
   ReferenceTypes: 0
-  Files: 46
+  Files: 53
  Nodes:
  - File: Nodes/carretta_corso_FTOptix.yaml
